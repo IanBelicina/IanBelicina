@@ -18,7 +18,7 @@ Have fun creating your portfolio on this template!!! -->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
 
     <!-- Title: add your Portfolio websites's title here -->
-    <title>[Your name here] | Developer</title>
+    <title>Ian Belicina | Software Engineer</title>
 
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
     <meta name="keywords" content="[username], [name], skill" />
@@ -27,42 +27,12 @@ Have fun creating your portfolio on this template!!! -->
     <meta name="description" content="[Your name here] | Developer" />
 
     <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
-    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+    <link rel="icon" type="svg" href="./assets/code-solid.svg" />
 
     <!-- Add your primary-theme color for the value of content -->
     <meta name="theme-color" content="#36d1dc" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <!-- Fill content with the URL of this portfolio you'll host -->
-    <meta property="og:url" content="https://devfolio.js.org/" />
-    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
-    <meta property="og:title" content="[Your name here] | Developer" />
-    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
-    <meta property="og:description" content="Made using DevFolio Template" />
-    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
-      so that a thumbnail image of your portfolio is shown while shared on other platform -->
-    <meta
-      property="og:image"
-      content="https://devfolio.js.org/assets/devfolio.png"
-    />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <!-- Again fill content attr with the URL of this portfolio you'll host -->
-    <meta property="twitter:url" content="https://devfolio.js.org" />
-    <!-- Recommended to use the same text used within <title> element -->
-    <meta property="twitter:title" content="[Your name here] | Developer" />
-    <!-- short description that shows up while your portfolio is shared -->
-    <meta
-      property="twitter:description"
-      content="Made using DevFolio Template"
-    />
-    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
-    <meta
-      property="twitter:image"
-      content="https://anilseervi.vercel.app/assets/devfolio.png"
-    />
 
     <!-- link tags -->
     <link rel="preload" as="style" href="./css/main.css" />
@@ -105,14 +75,29 @@ Have fun creating your portfolio on this template!!! -->
     <div id="hero">
       <section class="container">
         <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Your Name</span>
+          Hi, my name is <span class="text-color-main name">Ian Belicina</span>
           <br />
-          I'm the Unknown Developer.
+          I like to solve problems with code!
         </h1>
+        <div class="code-icons ">
+          <img src="./assets/icons8-python.svg" alt="Python icon">
+          <img src="./assets/icons8-postgresql.svg" alt="PostgreSQL icon">
+          <img src="./assets/icons8-javascript.svg" alt="Javascript icon">
+          <img src="./assets/icons8-react-native.svg" alt="React icon">
+          <img src="./assets/icons8-html.svg" alt="HTML icon">
+          <img src="./assets/icons8-css.svg" alt="CSS icon">
+          <!-- Add more <img> tags for additional icons as needed -->
+        </div>
+
         <p class="hero-cta">
-          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+          <a class="cta-btn cta-btn--hero" href="#about">About Me</a>
         </p>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#projects">Projects</a>
+        </p>
+
       </section>
+
       <a href="#about" class="scroll-down-link" aria-label="scroll-down">
         <div class="scroll-down"></div
       ></a>
@@ -127,7 +112,7 @@ Have fun creating your portfolio on this template!!! -->
           <div class="about-wrapper__image">
             <img
               class="img-fluid"
-              src="./assets/profile.png"
+              src="./assets/Ian.png"
               alt="Profile Image"
               width="450"
               height="350"
@@ -135,25 +120,27 @@ Have fun creating your portfolio on this template!!! -->
           </div>
           <div class="about-wrapper__info">
             <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus quae repellat, ad omnis distinctio velit saepe expedita
-              architecto cumque veritatis adipisci. Sapiente non, saepe hic
-              adipisci doloribus quisquam recusandae et.
+              Transitioning from a background in data analytics, my interest in software engineering was sparked during my undergraduate studies in mathematics. I was initially drawn to mathematics for its logical problem-solving aspects, and I soon recognized a similar problem-solving dimension in coding. Initially, I saw software engineering as a tool to complement my mathematical skills, but I quickly realized it's much more than that. I came to understand that software engineering is about crafting efficient, user-centric solutions that can have a meaningful impact on people's lives. This shift in perspective has driven my passion for software engineering, leading me to continually refine my skills, stay updated with emerging technologies, and adopt best practices.
             </p>
             <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              obcaecati doloribus qui praesentium quae veniam esse mollitia
-              consequuntur nisi minima quasi et fugit quidem enim recusandae
-              delectus, iusto culpa rerum?
+              In my career, I aim to merge the analytical precision developed in data analytics with the creative problem-solving capabilities found in software engineering. My goal is to create software solutions that are both technically robust and user-friendly. I'm committed to contributing my unique blend of skills to innovate and create software.
+
             </p>
             <span class="about-wrapper__cta">
-              <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
+              <a href="https://drive.google.com/file/d/1lqIRJNmOX6bnRb68P_VFIHFCySS_zcsP/view?usp=sharing" class="cta-btn cta-btn--resume" target="_blank">View Resume</a>
             </span>
           </div>
         </div>
       </div>
     </section>
     <!-- /END About Section -->
+
+    <!-- <style>
+      /* Target the FontAwesome icons within the tech stack paragraph */
+      .project-wrapper__text i.fa-brands {
+        font-size: 32px; /* You can adjust the font size as needed */
+      }
+    </style> -->
 
     <!--Projects Section-->
     <section id="projects">
@@ -164,32 +151,30 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">inclusiTravel</h3>
+              <p>Tech Stack: Python | FastAPI | PostgreSQL | JavaScript | React | HTML | CSS | Bootstrap </p>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                InclusiTravel is a forward-thinking project that utilizes advanced technologies like Python, FastAPI, React, and Bootstrap to promote inclusivity. It empowers users, especially those with disabilities, to make informed choices about accessible venues. Our goal is to create a more inclusive world by providing easy access to comprehensive venue information through secure APIs while ensuring a user-friendly experience. Moreover, InclusiTravel is designed to be ADA-friendly, ensuring that it meets the accessibility standards set forth by the Americans with Disabilities Act, guaranteeing an inclusive experience for all.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
-                  href="#"
+                  href="https://inclusitravel.gitlab.io/module3-project-gamma/"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero cta-btn--projects"
                   >See Live</a
                 >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
+                <a href="https://gitlab.com/ian.belicina/inclusi-travel" target="_blank" class="cta-btn text-color-main"
                   >Source Code</a
                 >
               </div>
             </div>
 
             <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://inclusitravel.gitlab.io/module3-project-gamma/" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/Inclusitravel.png"
                     class="img-fluid"
                     alt="Project Image"
                     width="1366"
@@ -204,12 +189,12 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">WheelWorks</h3>
+              <p>Tech Stack: Python | Django | PostgreSQL | JavaScript | React | HTML | CSS | Bootstrap </p>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                WheelWorks is a comprehensive automobile management system that offers a fully-functioning scaffold of microservices, a front-end application, and a PostgreSQL database. It facilitates seamless handling of various aspects of automobile operations, from inventory management and sales information to automobile service appointments.
+
+
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -219,17 +204,17 @@ Have fun creating your portfolio on this template!!! -->
                   class="cta-btn cta-btn--hero cta-btn--projects"
                   >See Live</a
                 >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
+                <a href="https://gitlab.com/ian.belicina/wheel-works" target="_blank" class="cta-btn text-color-main"
                   >Source Code</a
                 >
               </div>
             </div>
 
             <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a  rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/WheelWorks.png"
                     class="img-fluid"
                     alt="Project Image"
                     width="1366"
@@ -244,12 +229,10 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">ConferenceGo!</h3>
+              <p>Tech Stack: Python | Django | PostgreSQL | JavaScript | React | HTML | CSS | Bootstrap </p>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                Conference Go is a web application that simplifies conference management for organizers while providing a user-friendly experience for attendees. Built with a robust tech stack and modern development practices, this application seamlessly brings together JavaScript, React, Python, Django, and employs a microservices architecture to offer a powerful and efficient conference management solution.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -259,17 +242,17 @@ Have fun creating your portfolio on this template!!! -->
                   class="cta-btn cta-btn--hero cta-btn--projects"
                   >See Live</a
                 >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
+                <a href="https://gitlab.com/ian.belicina/conferencego" target="_blank" class="cta-btn text-color-main"
                   >Source Code</a
                 >
               </div>
             </div>
 
             <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a  rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/ConferenceGo.png"
                     class="img-fluid"
                     alt="Project Image"
                     width="1366"
@@ -280,8 +263,45 @@ Have fun creating your portfolio on this template!!! -->
             </div>
           </article>
           <!-- /END Project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">WeatherNow</h3>
+              <p>Tech Stack: Python | Django | PostgreSQL | JavaScript | React | HTML | CSS | Bootstrap </p>
+              <p class="project-wrapper__text-info">
+                WeatherNow is a dynamic web application that seamlessly brings real-time weather information to your fingertips with a dash of user-friendly interactivity. This feature-rich platform is crafted using a versatile technology stack, including Python, Django, JavaScript, React, and HTML. It empowers users to access up-to-the-minute weather conditions for any location, displayed in a visually pleasing card format. Beyond the basics, WeatherNow also allows users to add locations to their list and even delete them, ensuring a tailored weather experience. Leveraging the integration of a third-party API for weather data, WeatherNow ensures accuracy and reliability in every forecast.              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="https://gitlab.com/ian.belicina/weather-app" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a  rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/currentweather.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+
+
         </div>
       </div>
+
     </section>
     <!-- End Projects Section -->
 
@@ -290,8 +310,8 @@ Have fun creating your portfolio on this template!!! -->
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a href="#" class="cta-btn cta-btn--resume">Call to Action</a>
+          <h4 class="contact-wrapper__text">Email</h4>
+          <p >vancebelicina@gmail.com</p>
         </div>
       </div>
     </section>
@@ -305,56 +325,26 @@ Have fun creating your portfolio on this template!!! -->
         </a>
         <div class="social-links">
           <a
-            href="#!"
+            href="https://gitlab.com/vancebelicina"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="twitter"
           >
-            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-gitlab"></i>
           </a>
+
           <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="instagram"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="codepen"
-          >
-            <i class="fa-brands fa-codepen"></i>
-          </a>
-          <a
-            href="#!"
+            href="https://www.linkedin.com/in/ian-belicina/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="linkedin"
           >
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="github"
-          >
-            <i class="fa-brands fa-github"></i>
-          </a>
+
         </div>
         <hr />
-        <p class="footer__text">
-          &copy; <span id="year"></span> - Template by
-          <a
-            href="https://github.com/AnilSeervi"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Anil Seervi</a
-          >. <br />Made with &hearts;
-        </p>
+
       </div>
     </footer>
     <!-- END Footer Section -->
